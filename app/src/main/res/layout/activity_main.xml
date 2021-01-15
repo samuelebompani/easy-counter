@@ -6,24 +6,27 @@
     android:gravity="center">
 
     <TextView
+        android:id="@+id/display"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
         android:text="@string/start_string"
-        android:textSize="100sp"
-        android:textColor="@color/black" />
-    <Button
+        android:textColor="?attr/colorSecondary"
+        android:textSize="100sp" />
 
+    <Button
         android:id="@+id/button_plus"
-        style="@style/Widget.MaterialComponents.Button"
+        style="@style/EasyCounterButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/plus"
-        app:backgroundTint="#000000" />
+        android:text="@string/plus" />
 
     <Button
         android:id="@+id/button_minus"
+        style="@style/EasyCounterButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/minus"
-        app:backgroundTint="#FC000000" />
+        android:text="@string/minus" />
+
+
 </LinearLayout>
