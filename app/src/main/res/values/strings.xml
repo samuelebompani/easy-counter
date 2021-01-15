@@ -4,4 +4,6 @@
     <string name="minus">-</string>
     <string name="start_string">0</string>
     <string name="reset">Reset</string>
+    <string name="set">Set</string>
+    <string name="null_string" />
 </resources>

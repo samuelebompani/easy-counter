@@ -2,16 +2,18 @@ package com.example.easycounter
 
 class Counter (var n : Int){
 
-    fun add() {
-        this.n++
+    fun set(m : Int) {
+        if (m<0)
+            this.n = 0
+        else
+            this.n = m
     }
 
-    fun sub() {
-        this.n--
-    }
-
-    fun reset() {
-        this.n=0
+    fun add(m : Int) {
+        if (n+m < 0)
+            this.n = 0
+        else
+            this.n = n+m
     }
 
     fun print() : String {

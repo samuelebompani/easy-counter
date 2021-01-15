@@ -8,6 +8,7 @@
         <item name="strokeWidth">6sp</item>
         <item name="android:textSize">25sp</item>
         <item name="fontFamily">@font/roboto</item>
+        <item name="android:layout_height">60sp</item>
     </style>
     <style name="MyShapeAppearance" parent="">
         <item name="cornerFamilyTopLeft">rounded</item>
