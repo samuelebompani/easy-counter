@@ -6,4 +6,5 @@
     <string name="reset">Reset</string>
     <string name="set">Set</string>
     <string name="null_string" />
+    <string name="add">add</string>
 </resources>
